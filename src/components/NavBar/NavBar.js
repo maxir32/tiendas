@@ -29,7 +29,7 @@ const NavBar = () => {
         <AppBar position="static" className={`header-primary ${darkTheme ? 'dark-mode' : ''}`}>
             <Toolbar>
                 <div className='container-logo'>
-                    <img src="/logo_coderhouse.png" />
+                    <img src="/logo_coderhouse.png" alt=""/>
                 </div>
                 <ul className='navbar'>
                     <li>

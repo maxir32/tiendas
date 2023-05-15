@@ -1,20 +1,20 @@
 const productos = [
     {
         title : 'Remera Oversize',
-        price : 1500,
+        price : 2500,
         image : 'remera1.jpg',
         description: '',
         category: 'remeras',
-        stock: 3,
+        stock: 5,
         id: 1
     },
     {
         title : 'Remera Oversize 2',
-        price : 3500,
+        price : 3700,
         image : 'remera5.jpeg',
         description: '',
         category: 'remeras',
-        stock: 5,
+        stock: 4,
         id: 2
     },
     {
@@ -112,7 +112,7 @@ const productos = [
 
 const producto = {
     title : 'Remera Oversize',
-    price : 1500,
+    price : 2500,
     image : 'remera1.jpg',
     description: '',
     stock: 3,

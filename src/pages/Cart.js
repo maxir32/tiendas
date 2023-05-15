@@ -71,7 +71,7 @@ const Cart = () => {
                 return(
                     <div className='cart-table__content' key={id}>
                         <div className='cart-table__content-img'>
-                            <img src={`/${image}`} />
+                            <img src={`/${image}`} alt=""/>
                         </div>
                         <div className='cart-table__content-title'>
                             <p>{title}</p>

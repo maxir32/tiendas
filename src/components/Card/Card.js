@@ -1,9 +1,8 @@
 import './Card.css'
-import { useState, useContext } from 'react'
+import {useContext } from 'react'
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { Button } from '@mui/material';
-import Modal from '../Modal/Modal'
 import { Link } from 'react-router-dom';
 import { ThemeContext } from '../../context/ThemeContext'
 import CartContext from '../../context/CartContext'
